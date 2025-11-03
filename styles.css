@@ -1,4 +1,4 @@
-/* ✅ Background for the page */
+/* ✅ Body background must be gray */
 body {
   background-color: rgb(204, 204, 204) !important;
   margin: 0;
@@ -10,28 +10,29 @@ h1, h2 {
   text-align: center !important;
 }
 
-/* ✅ Playlist styling */
+/* ✅ Playlist list container */
 ul {
   padding: 0;
   margin: 20px auto;
   text-align: center;
 }
 
-/* ✅ No bullet points for songs */
+/* ✅ No bullets in songs */
 li {
   list-style-type: none !important;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
-/* ✅ Links (songs) */
+/* ✅ Links style */
 a {
   text-decoration-line: none !important;
   color: blue;
   font-weight: bold;
 }
 
-/* ✅ Audio & Video containers */
-.player_one, .player_two {
+/* ✅ Video and Audio container style */
+.player_one,
+.player_two {
   background-color: rgb(255, 255, 255) !important;
   padding: 20px !important;
   border-radius: 10px !important;
