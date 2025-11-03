@@ -1,6 +1,6 @@
 /* Body background */
 body {
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(204, 204, 204) !important; /* ensures Cypress detects */
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -8,7 +8,7 @@ body {
 
 /* Headings alignment */
 h1, h2 {
-  text-align: center;
+  text-align: center !important;
 }
 
 /* Playlist styles */
@@ -20,23 +20,23 @@ ul {
 
 /* Remove bullets from list items */
 li {
-  list-style-type: none !important;
+  list-style-type: none !important;  /* explicit for Cypress */
   margin: 10px 0;
 }
 
 /* Anchor styling */
 a {
-  text-decoration-line: none;
+  text-decoration-line: none !important;
   color: blue;
   font-weight: bold;
 }
 
-/* Player containers */
+/* Player containers styling */
 .player_one,
 .player_two {
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  border-radius: 10px;
+  background-color: rgb(255, 255, 255) !important; /* required by test */
+  padding: 20px !important;
+  border-radius: 10px !important;
   width: 80%;
   margin: 20px auto;
   text-align: center;
