@@ -1,42 +1,32 @@
-/* ✅ Body background must be gray */
+/* Page background */
 body {
-  background-color: rgb(204, 204, 204) !important;
-  margin: 0;
-  font-family: Arial, sans-serif;
+  background-color: rgb(204, 204, 204);
 }
 
-/* ✅ Center all headings */
+/* Headings styling */
 h1, h2 {
-  text-align: center !important;
+  text-align: center;
 }
 
-/* ✅ Playlist list container */
+/* Song list styles */
 ul {
   padding: 0;
-  margin: 20px auto;
-  text-align: center;
 }
 
-/* ✅ No bullets in songs */
 li {
-  list-style-type: none !important;
-  margin: 8px 0;
+  list-style-type: none;
 }
 
-/* ✅ Links style */
 a {
-  text-decoration-line: none !important;
-  color: blue;
-  font-weight: bold;
+  text-decoration-line: none;
 }
 
-/* ✅ Video and Audio container style */
+/* Player containers */
 .player_one,
 .player_two {
-  background-color: rgb(255, 255, 255) !important;
-  padding: 20px !important;
-  border-radius: 10px !important;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
   margin: 20px auto;
-  width: 80%;
-  text-align: center;
+  width: fit-content;
 }
