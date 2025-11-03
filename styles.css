@@ -1,43 +1,41 @@
-/* Body background */
+/* ✅ Background for the page */
 body {
-  background-color: rgb(204, 204, 204) !important; /* ensures Cypress detects */
+  background-color: rgb(204, 204, 204) !important;
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Headings alignment */
+/* ✅ Center all headings */
 h1, h2 {
   text-align: center !important;
 }
 
-/* Playlist styles */
+/* ✅ Playlist styling */
 ul {
   padding: 0;
   margin: 20px auto;
   text-align: center;
 }
 
-/* Remove bullets from list items */
+/* ✅ No bullet points for songs */
 li {
-  list-style-type: none !important;  /* explicit for Cypress */
+  list-style-type: none !important;
   margin: 10px 0;
 }
 
-/* Anchor styling */
+/* ✅ Links (songs) */
 a {
   text-decoration-line: none !important;
   color: blue;
   font-weight: bold;
 }
 
-/* Player containers styling */
-.player_one,
-.player_two {
-  background-color: rgb(255, 255, 255) !important; /* required by test */
+/* ✅ Audio & Video containers */
+.player_one, .player_two {
+  background-color: rgb(255, 255, 255) !important;
   padding: 20px !important;
   border-radius: 10px !important;
-  width: 80%;
   margin: 20px auto;
+  width: 80%;
   text-align: center;
 }
